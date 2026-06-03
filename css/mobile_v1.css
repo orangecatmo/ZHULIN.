@@ -904,3 +904,18 @@
         font-size: 22px !important;
     }
 }
+@media (max-width: 900px) {
+  .photo-logo {
+    left: 14px !important;
+    right: 14px !important;
+    width: calc(100% - 28px) !important;
+    overflow: visible !important;
+  }
+
+  .left-section .photo-logo img.signature-overlay {
+    width: 86% !important;
+    max-width: 340px !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+}
